@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #18F;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Message {
+  color: #FFF;
+  padding: 5px 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+section{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calcul {
+  display: flex;
+}
+
+.calcul h1 {
+  color: #FFF;
+  font-size: 50px;
+  margin: 0 20px;
+}
+
+h2 {
+  color: #FFF;
+  margin: 10px 0; 
+}
+
+section input {
+  padding: 10px 0;
+  border: 0;
+  outline: 0;
+  color: #FFF;
+  border-bottom: 1px solid #FFF;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+section input[type="number"] {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+section input[type="submit"]{
+  padding: 10px 65px;
+  border: 0;
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+section input[type="submit"]:hover{
+  letter-spacing: 2px;
+}
+
+.score {
+  font-size: 25px;
+  color: #FFF;
+  text-align: center;
+}
+
+a{
+  color: #FFF;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin: 25px 0;
+  display: none;
+}
